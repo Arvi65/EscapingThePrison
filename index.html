@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <head>
+          <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+          <style>
+          body {
+              font-family: 'Alata';font-size: 22px;
+          }
+          </style>
+   
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leopard@^1/dist/index.min.css"
+  />
+  </head>
+  <body>
+    <h6></h6>
+    <center>
+    <button id="greenFlag">Retry</button>
+    
+    <h6></h6>
+   
+      <div id="project"></div>
+    
+
+    <script type="module">
+      import project from "./index.js";
+
+      project.attach("#project");
+
+      document.querySelector("#greenFlag").addEventListener("click", () => {
+        project.greenFlag();
+      });
+
+      // Autoplay
+      project.greenFlag();
+    </script>
+  </body>
+  <h2></h2>
+  <h6></h6>
+  Made By:
+  <a href="https://scratch.mit.edu/users/Umpahh/" target="_blank">
+    @Umpahh (Arvin)</a
+  >
+  <h6></h6>
+  <a href="https://scratch.mit.edu/projects/471522473/" target="_blank">
+    The First Game: Robbing The Game
+  </a>
+  <h6></h6>
+  <p>
+    Thanks to
+    <a href="https://scratch.mit.edu/users/5had0wL1n3/" target="_blank"
+      >@5had0wL1n3</a
+    >
+    for appearing in game and help with some art.
+  </p>
+</center>
+</html>
